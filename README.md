@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">This github repository is for the first assignment given in Advanced Programming 2 course, Bar Ilan University.
+<h4 align="center">This Github repository is for the first assignment given in Advanced Programming 2 course, Bar Ilan University.
 
 
 <p align="center">
