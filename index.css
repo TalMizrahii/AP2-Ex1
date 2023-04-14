@@ -1,18 +1,56 @@
-.backgroundBottom {
-    background-color: #4169E1;
-    background-image: linear-gradient(to bottom left, transparent 50%, white 50%);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 10vh;
-    margin: 0;
-    padding: 0;
+html {
+    height: 100%;
 }
 
-.backgroundTop {
-    background-color: #4169E1;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 10vh;
+body {
     margin: 0;
-    padding: 0;
+}
+
+.bg {
+    animation: slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #4169E1 50%, #09f 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: .5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+}
+
+.bg2 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+}
+
+.bg3 {
+    animation-duration: 5s;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: .25em;
+    box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    left: 50%;
+    padding: 35vmin;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: monospace;
+}
+
+@keyframes slide {
+    /* At 0% of the animation */
+    0% {
+        transform: translateX(-25%);
+    }
+    /* At 100% of the animation */
+    100% {
+        transform: translateX(25%);
+    }
 }
