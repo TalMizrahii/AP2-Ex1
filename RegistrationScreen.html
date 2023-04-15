@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Log in page</title>
     <link href="index.css" rel="stylesheet">
     <link href="RegistrationScreen.css" rel="stylesheet">
@@ -18,10 +19,9 @@
 <div class="bg"></div>
 <div class="bg bg2"></div>
 <div class="bg bg3"></div>
-
 <div class="register">
     <h1 id="chatName">Hat Chat</h1>
-    <form>
+    <div>
         <div class="form-floating mb-3">
             <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Username</label>
@@ -30,19 +30,28 @@
             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">Password</label>
         </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInputName" placeholder="name@example.com">
+            <label for="floatingInput">Display name</label>
+        </div>
+        <div class="mb-3">
+            <label for="formFile" class="form-label profilePictureLabel">profile picture</label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
+
         <div>
-            <button type="submit" class="btn btn-primary">Log In</button>
+            <button class="btn btn-primary" id="subButton" type="submit">Create account</button>
         </div>
 
         <div class="bottomDisclaimer">
-            <p>Not registered yet? <a href="RegistrationScreen.html">Click here to register.</a></p>
+            <p>Already signed in? <a href="index.html">Click here to login.</a></p>
             <div dir="ltr"
                  class="css-901oao r-14j79pv r-1k78y06 r-n6v787 r-16dba41 r-1cwl3u0 r-1p6iasa r-bcqeeo r-1qhn6m8 r-qvutc0">
                 <span class="css-901oao css-16my406 r-1k78y06 r-bcqeeo r-qvutc0">© 2023 Tal&Yuval, Inc.</span>
             </div>
         </div>
 
-    </form>
+    </div>
 </div>
 </body>
 </html>
