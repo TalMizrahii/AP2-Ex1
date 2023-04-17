@@ -43,9 +43,13 @@ form{
     transform: translate(-50%, -50%);
 }
 
-h1 {
-    font-family: monospace;
+
+
+#chatName{
+    font-family: Georgia, serif;
+    
 }
+
 
 @keyframes slide {
     /* At 0% of the animation */
