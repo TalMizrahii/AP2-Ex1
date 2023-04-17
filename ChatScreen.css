@@ -1,0 +1,7 @@
+.chatsList{
+    float: left;
+}
+
+.chatScreen{
+    display: flex;
+}
