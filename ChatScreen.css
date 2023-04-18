@@ -12,10 +12,11 @@ body {
     left: 50%;
     position: fixed;
     text-align: center;
-    top: 19%;
-    height: 200px;
+    top: 45%;
+    height: 87%;
     transform: translate(-50%, -50%);
     background-color: #fff;
+
 }
 
 .chatsList h1 {
@@ -34,8 +35,6 @@ body {
 
 
 ------------------------------------------
-
-
 
 
 */
@@ -153,6 +152,15 @@ body {
     box-shadow: 0 4px 0, 0 8px 0
 }
 
-#search-adon{
+/*The search bar*/
+#search-adon {
     padding: 0;
 }
+
+/*The chatBox*/
+/*#chatBoxOfMessages {*/
+/*    height: 400px;*/
+/*    background-color: #0099ff;*/
+/*}*/
+
+/*The chatPersonRoom*/

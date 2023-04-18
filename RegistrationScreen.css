@@ -12,9 +12,14 @@
 
 #subButton{
     float: left;
+    margin-top: 15px;
 }
 
 .bottomDisclaimer {
     margin-top: 25%;
     margin-bottom: 2%;
+}
+
+.mb-3{
+    height: 50px;
 }
