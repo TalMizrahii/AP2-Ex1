@@ -245,3 +245,13 @@ body {
     margin-right: 0;
 }
 
+#msgInputBar{
+    position: absolute;
+    bottom: 10px;
+    width: 65%;
+    float: left;
+}
+
+#sendBtn{
+    float: right;
+}
