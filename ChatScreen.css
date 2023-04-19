@@ -35,8 +35,11 @@ body {
 }
 
 /*
+
+
 ------------------------------------------
 */
+
 
 .header {
     position: relative;
@@ -87,7 +90,6 @@ body {
 }
 
 /*Add user icon*/
-
 .gg-user-add {
     display: block;
     transform: scale(1);
@@ -104,12 +106,12 @@ body {
             transparent 0) no-repeat 16px 4px/2px 6px
 }
 
-.gg-user-add::after, .gg-user-add::before {
+.gg-user-add::before, .gg-user-add::after {
     content: "";
     display: block;
     box-sizing: border-box;
     position: absolute;
-    border: 2px solid
+    border: 2px solid;
 }
 
 .gg-user-add::before {
@@ -117,7 +119,7 @@ body {
     height: 8px;
     border-radius: 30px;
     top: 0;
-    left: 2px
+    left: 2px;
 }
 
 .gg-user-add::after {
@@ -126,8 +128,13 @@ body {
     border-bottom: 0;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    top: 9px
+    top: 9px;
 }
+
+.button-background {
+    padding: 0px;
+}
+
 
 /*Menu icon*/
 .gg-menu-round {
@@ -193,4 +200,43 @@ body {
 .modal-backdrop {
     display: none;
 }
+
+#exampleModalLabel .modal-title-background {
+    background-color: white;
+}
+
+
+.btn-no-pointer::after {
+    display: none !important;
+}
+
+#menu-button {
+    padding: 0;
+    margin-left: 20px;
+}
+
+#add-button {
+    padding: 0;
+    margin-left: 20px;
+}
+
+.btn-no-pointer {
+    padding: 0;
+    background: none;
+    border: none !important;
+    font-size: 0.8rem; /* reduce font size */
+    line-height: 1; /* remove extra line height */
+    height: 2rem; /* set button height */
+    width: 4rem; /* set button width */
+}
+
+.btn-no-pointer:focus,
+.btn-no-pointer:hover {
+    background: none;
+}
+
+.btn:not(:focus):not(:hover) {
+    border: none;
+}
+
 
