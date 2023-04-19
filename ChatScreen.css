@@ -188,3 +188,7 @@ body {
     font-size: 60%;
     font-style: italic;
 }
+
+.modal-backdrop {
+    display: none;
+}
