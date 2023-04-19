@@ -19,17 +19,13 @@ body {
     background-color: #fff;
 }
 
-.chatsList > h1 {
+.headerOfBox {
     width: 100%;
-    background-color: blanchedalmond;
+    background-color: pink;
     margin: 0;
 }
 
-.chatScreen > h1 {
-    width: 100%;
-    background-color: blanchedalmond;
-    margin: 0;
-}
+
 
 .chatsList{
     /*background-image: url('bg4.jpg');*/
@@ -39,12 +35,9 @@ body {
 }
 
 /*
-
-
 ------------------------------------------
-
-
 */
+
 .header {
     position: relative;
     display: flex;
