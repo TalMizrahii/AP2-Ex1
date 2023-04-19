@@ -76,7 +76,11 @@ body {
 .nav-icons {
     display: flex;
     justify-content: flex-end;
-    padding-left: 110px;
+
+    margin-right: 0;
+    margin-left: 75%;
+    width: 30px;
+    height: 30px;
 }
 
 .nav-icons li {
@@ -212,12 +216,11 @@ body {
 
 #menu-button {
     padding: 0;
-    margin-left: 20px;
 }
 
 #add-button {
     padding: 0;
-    margin-left: 20px;
+    margin-left: 0;
 }
 
 .btn-no-pointer {
@@ -226,8 +229,7 @@ body {
     border: none !important;
     font-size: 0.8rem; /* reduce font size */
     line-height: 1; /* remove extra line height */
-    height: 2rem; /* set button height */
-    width: 4rem; /* set button width */
+
 }
 
 .btn-no-pointer:focus,
@@ -239,4 +241,7 @@ body {
     border: none;
 }
 
+#menu-group-btn{
+    margin-right: 0;
+}
 
