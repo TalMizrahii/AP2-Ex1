@@ -11,6 +11,7 @@ body {
     box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
     left: 50%;
     position: fixed;
+    padding: 0;
     text-align: center;
     top: 45%;
     height: 87%;
@@ -18,16 +19,23 @@ body {
     background-color: #fff;
 }
 
-.chatsList h1 {
+.chatsList > h1 {
     width: 100%;
     background-color: blanchedalmond;
     margin: 0;
 }
 
-.chatScreen h1 {
+.chatScreen > h1 {
     width: 100%;
     background-color: blanchedalmond;
     margin: 0;
+}
+
+.chatsList{
+    /*background-image: url('bg4.jpg');*/
+    background-color: #eaebf0;
+    margin: 0;
+    padding: 0;
 }
 
 /*
