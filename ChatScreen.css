@@ -16,7 +16,6 @@ body {
     height: 87%;
     transform: translate(-50%, -50%);
     background-color: #fff;
-
 }
 
 .chatsList h1 {
@@ -54,6 +53,9 @@ body {
     height: 40px;
     overflow: hidden;
     border-radius: 50%;
+
+    float: left;
+
 }
 
 /*icons list*/
@@ -165,3 +167,23 @@ body {
 
 /*The chatPersonRoom*/
 
+.userName {
+    /*position: center;*/
+    margin-left: 30px;
+    font-weight: bold;
+    float: left;
+}
+
+.timeAndHour {
+    margin-right: 0;
+    font-size: 70%;
+    float: right;
+}
+
+.lastMsg {
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 70%;
+    font-style: italic;
+}
