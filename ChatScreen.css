@@ -157,10 +157,10 @@ body {
     padding: 0;
 }
 
-/*The chatBox*/
-/*#chatBoxOfMessages {*/
-/*    height: 400px;*/
-/*    background-color: #0099ff;*/
-/*}*/
+The chatBox
+#chatBoxOfMessages {
+    height: 400px;
+    background-color: #0099ff;
+}
 
-/*The chatPersonRoom*/
+/*The dataBar*/
