@@ -33,37 +33,45 @@
                     </div>
                     <div class="nav-icons">
                         <!-- Modal button -->
-                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" id="add-button" class="btn modal-button btn-no-pointer" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <li class="gg-user-add"></li>
                         </button>
 
                         <!-- Modal window -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                             aria-hidden="true">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title-background modal-title fs-5 " id="exampleModalLabel">Add
-                                            new contact</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
+                                        <h1 class="modal-title-background modal-title fs-5" id="exampleModalLabel">Add new contact</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
                                         <div class="input-group rounded">
-                                            <input type="search" class="form-control rounded"
-                                                   placeholder="Contact's identifier" aria-label="Search"
-                                                   aria-describedby="search-addon"/>
+                                            <input type="search" class="form-control rounded" placeholder="Contact's identifier" aria-label="Search" aria-describedby="search-addon" />
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close
-                                        </button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                         <button type="button" class="btn btn-primary">Add contact</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <li class="gg-menu-round"></li>
+
+                        <div class="btn-group">
+                            <button type="button" id="menu-button" class="btn  dropdown-toggle btn-no-pointer" data-bs-toggle="dropdown" aria-expanded="false">
+                                <li class="gg-menu-round"></li>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+
+
                     </div>
                 </div>
             </h1>

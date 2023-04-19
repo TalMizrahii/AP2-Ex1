@@ -127,8 +127,8 @@ body {
     top: 9px;
 }
 
-.button-background{
-   padding: 0px;
+.button-background {
+    padding: 0px;
 }
 
 
@@ -197,6 +197,42 @@ body {
     display: none;
 }
 
-#exampleModalLabel .modal-title-background{
+#exampleModalLabel .modal-title-background {
     background-color: white;
 }
+
+
+.btn-no-pointer::after {
+    display: none !important;
+}
+
+#menu-button {
+    padding: 0;
+    margin-left: 20px;
+}
+
+#add-button {
+    padding: 0;
+    margin-left: 20px;
+}
+
+.btn-no-pointer {
+    padding: 0;
+    background: none;
+    border: none !important;
+    font-size: 0.8rem; /* reduce font size */
+    line-height: 1; /* remove extra line height */
+    height: 2rem; /* set button height */
+    width: 4rem; /* set button width */
+}
+
+.btn-no-pointer:focus,
+.btn-no-pointer:hover {
+    background: none;
+}
+
+.btn:not(:focus):not(:hover) {
+    border: none;
+}
+
+
