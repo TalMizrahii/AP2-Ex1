@@ -17,23 +17,37 @@ body {
     height: 87%;
     transform: translate(-50%, -50%);
     background-color: #fff;
+    border-radius: 15px;
 }
+
+.chatScreen{
+    border-radius: 15px !important;
+}
+
+.chatScreen > .headerOfBox{
+    border-top-left-radius: 15px;
+
+}
+
 
 .headerOfBox {
     width: 100%;
-    background-color: pink;
+    background-color: #bbbbbb;
     margin: 0;
 }
 
 
-
-.chatsList{
+.chatsList {
     /*background-image: url('bg4.jpg');*/
     background-color: #eaebf0;
     margin: 0;
     padding: 0;
+    border-radius: 15px;
 }
 
+.chatsList > .headerOfBox{
+    border-top-right-radius: 15px;
+}
 /*
 
 
@@ -49,6 +63,7 @@ body {
     height: 60px;
     padding: 0 15px;
     margin: 0;
+
 }
 
 .user-img {
@@ -57,9 +72,7 @@ body {
     height: 40px;
     overflow: hidden;
     border-radius: 50%;
-
     float: left;
-
 }
 
 /*icons list*/
@@ -171,12 +184,6 @@ body {
     padding: 0;
 }
 
-/*The chatBox*/
-/*#chatBoxOfMessages {*/
-/*    height: 400px;*/
-/*    background-color: #0099ff;*/
-/*}*/
-
 /*The chatPersonRoom*/
 
 .userName {
@@ -241,17 +248,50 @@ body {
     border: none;
 }
 
-#menu-group-btn{
+#menu-group-btn {
     margin-right: 0;
 }
 
-#msgInputBar{
+/*Bottom msg bar and button*/
+#FullMsgInputBar {
     position: absolute;
-    bottom: 10px;
-    width: 65%;
+    bottom: 0;
+    width: 75%;
+    float: left;
+    padding: 10px;
+    background-color: #bbbbbb;
+    border-bottom-right-radius: 15px;
+}
+
+.bi-emoji-smile {
+    margin-top: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+#msgInputBar {
+    width: 85%;
+    margin-right: 0;
+    margin-left: 5px;
     float: left;
 }
 
-#sendBtn{
+#sendBtn {
+    margin-left: 0;
     float: right;
+    width: 10%;
+}
+
+/*Chat Box and messages*/
+
+.chatImg {
+    border-radius: 80%;
+    width: 40px;
+    height: 35px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.timeHourContact{
+    float: left;
 }
