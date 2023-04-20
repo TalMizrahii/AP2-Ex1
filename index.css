@@ -47,7 +47,6 @@ form{
 
 #chatName{
     font-family: Georgia, serif;
-    
 }
 
 
@@ -60,4 +59,9 @@ form{
     100% {
         transform: translateX(25%);
     }
+}
+
+#linkToChat {
+    background: transparent;
+    color: black;
 }
