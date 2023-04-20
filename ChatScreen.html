@@ -76,7 +76,7 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                            <li><a class="dropdown-item" href="index.html">Logout</a></li>
                         </ul>
                     </div>
 
@@ -136,87 +136,143 @@
 
     <!--Chat box of messages-->
     <div class="col-md-9 g-0 chatsList">
-        <h1 class="headerOfBox">
-            <div class="header">
+            <h1 class="headerOfBox">
+                <div class="header">
+                    <div id="chatNameLogo">
+                        Hat Chat
+                    </div>
+                </div>
+            </h1>
+        <div class="DivWithScroll">
 
-            </div>
-        </h1>
 
-        <div id="chatBoxOfMessages">
-            <div id="FullMsgInputBar">
-                <i class="bi bi-emoji-smile"></i>
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                     class="bi bi-emoji-smile" viewBox="0 0 16 16">
-                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                    <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
-                </svg>
-
-                <input type="text" id="msgInputBar" class="form-control" placeholder="Enter message">
-                <button type="button" class="btn btn-success" id="sendBtn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                         class="bi bi-send" viewBox="0 0 16 16">
-                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"></path>
+            <div id="chatBoxOfMessages">
+                <div id="FullMsgInputBar">
+                    <i class="bi bi-emoji-smile"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                         class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
                     </svg>
-                    send
-                </button>
+
+                    <input type="text" id="msgInputBar" class="form-control" placeholder="Enter message">
+                    <button type="button" class="btn btn-success" id="sendBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-send" viewBox="0 0 16 16">
+                            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"></path>
+                        </svg>
+                        send
+                    </button>
+                </div>
+            </div>
+
+            <div class="pt-3 pe-3" data-mdb-perfect-scrollbar="true"
+                 style="position: relative; height: 400px">
+
+                <!--contact message-->
+                <div class="d-flex flex-row justify-content-start">
+                    <img class="chatImg"
+                         src="https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg"
+                         alt="avatar 1">
+                    <div>
+                        <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">
+                            This HATCHAT project is for the first assignment given in Advanced Programming 2 course, Bar
+                            Ilan University.
+                        </p>
+                        <p class="small ms-3 mb-3 rounded-3 text-muted timeHourContact">12:00 PM | April 20</p>
+                    </div>
+                </div>
+                <!--user message-->
+                <div class="d-flex flex-row justify-content-end">
+                    <div>
+                        <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">
+                            Got it! Thanks for the heads-up about the HATCHAT project for Advanced Programming 2 at Bar
+                            Ilan
+                            University.
+                        </p>
+                        <p class="small me-3 mb-3 rounded-3 text-muted float-end">12:00 PM | April 20</p>
+                    </div>
+                    <img class="chatImg"
+                         src="https://images.squarespace-cdn.com/content/v1/5c76de607fdcb8facd765433/1592926322727-OL8OFAUGXH0Q5XMF6AXC/IMG-4874.JPG"
+                         alt="avatar 1">
+                </div>
+
+                <!--contact message-->
+                <div class="d-flex flex-row justify-content-start">
+                    <img class="chatImg"
+                         src="https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg"
+                         alt="avatar 1">
+                    <div>
+                        <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">
+                            If you want any more details, tell me about it and I'll send you.
+                        </p>
+                        <p class="small ms-3 mb-3 rounded-3 text-muted timeHourContact">12:01 PM | April 20</p>
+                    </div>
+                </div>
+
+                <!--user message-->
+                <div class="d-flex flex-row justify-content-end">
+                    <div>
+                        <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">
+                            Cool man, see you in Sibuchiut.
+                        </p>
+                        <p class="small me-3 mb-3 rounded-3 text-muted float-end">12:03 PM | April 20</p>
+                    </div>
+                    <img class="chatImg"
+                         src="https://images.squarespace-cdn.com/content/v1/5c76de607fdcb8facd765433/1592926322727-OL8OFAUGXH0Q5XMF6AXC/IMG-4874.JPG"
+                         alt="avatar 1">
+                </div>
+                <!--user message-->
+                <div class="d-flex flex-row justify-content-end">
+                    <div>
+                        <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">
+                            Cool man, see you in Sibuchiut.
+                        </p>
+                        <p class="small me-3 mb-3 rounded-3 text-muted float-end">12:03 PM | April 20</p>
+                    </div>
+                    <img class="chatImg"
+                         src="https://images.squarespace-cdn.com/content/v1/5c76de607fdcb8facd765433/1592926322727-OL8OFAUGXH0Q5XMF6AXC/IMG-4874.JPG"
+                         alt="avatar 1">
+                </div>
+                <!--user message-->
+                <div class="d-flex flex-row justify-content-end">
+                    <div>
+                        <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">
+                            Cool man, see you in Sibuchiut.
+                        </p>
+                        <p class="small me-3 mb-3 rounded-3 text-muted float-end">12:03 PM | April 20</p>
+                    </div>
+                    <img class="chatImg"
+                         src="https://images.squarespace-cdn.com/content/v1/5c76de607fdcb8facd765433/1592926322727-OL8OFAUGXH0Q5XMF6AXC/IMG-4874.JPG"
+                         alt="avatar 1">
+                </div>
+                <!--user message-->
+                <div class="d-flex flex-row justify-content-end">
+                    <div>
+                        <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">
+                            Cool man, see you in Sibuchiut.
+                        </p>
+                        <p class="small me-3 mb-3 rounded-3 text-muted float-end">12:03 PM | April 20</p>
+                    </div>
+                    <img class="chatImg"
+                         src="https://images.squarespace-cdn.com/content/v1/5c76de607fdcb8facd765433/1592926322727-OL8OFAUGXH0Q5XMF6AXC/IMG-4874.JPG"
+                         alt="avatar 1">
+                </div>
+                <!--user message-->
+                <div class="d-flex flex-row justify-content-end">
+                    <div>
+                        <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">
+                            Cool man, see you in Sibuchiut.
+                        </p>
+                        <p class="small me-3 mb-3 rounded-3 text-muted float-end">12:03 PM | April 20</p>
+                    </div>
+                    <img class="chatImg"
+                         src="https://images.squarespace-cdn.com/content/v1/5c76de607fdcb8facd765433/1592926322727-OL8OFAUGXH0Q5XMF6AXC/IMG-4874.JPG"
+                         alt="avatar 1">
+                </div>
             </div>
         </div>
-
-        <div class="pt-3 pe-3" data-mdb-perfect-scrollbar="true"
-             style="position: relative; height: 400px">
-
-            <!--contact message-->
-            <div class="d-flex flex-row justify-content-start">
-                <img class="chatImg"
-                     src="https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg"
-                     alt="avatar 1">
-                <div>
-                    <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">
-                        This HATCHAT project is for the first assignment given in Advanced Programming 2 course, Bar
-                        Ilan University.
-                    </p>
-                    <p class="small ms-3 mb-3 rounded-3 text-muted timeHourContact">12:00 PM | April 20</p>
-                </div>
-            </div>
-            <!--user message-->
-            <div class="d-flex flex-row justify-content-end">
-                <div>
-                    <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">
-                        Got it! Thanks for the heads up about the HATCHAT project for Advanced Programming 2 at Bar Ilan
-                        University.
-                    </p>
-                    <p class="small me-3 mb-3 rounded-3 text-muted float-end">12:00 PM | April 20</p>
-                </div>
-                <img class="chatImg"
-                     src="https://images.squarespace-cdn.com/content/v1/5c76de607fdcb8facd765433/1592926322727-OL8OFAUGXH0Q5XMF6AXC/IMG-4874.JPG"
-                     alt="avatar 1">
-            </div>
-
-            <!--contact message-->
-            <div class="d-flex flex-row justify-content-start">
-                <img class="chatImg"
-                     src="https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg"
-                     alt="avatar 1">
-                <div>
-                    <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">
-                        If you want any more details, tell me about it and I'll send you.
-                    </p>
-                    <p class="small ms-3 mb-3 rounded-3 text-muted timeHourContact">12:01 PM | April 20</p>
-                </div>
-            </div>
-
-            <!--user message-->
-            <div class="d-flex flex-row justify-content-end">
-                <div>
-                    <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">
-                        Cool man, see you in Sibuchiut.
-                    </p>
-                    <p class="small me-3 mb-3 rounded-3 text-muted float-end">12:03 PM | April 20</p>
-                </div>
-                <img class="chatImg"
-                     src="https://images.squarespace-cdn.com/content/v1/5c76de607fdcb8facd765433/1592926322727-OL8OFAUGXH0Q5XMF6AXC/IMG-4874.JPG"
-                     alt="avatar 1">
-            </div>
-        </div>
+    </div>
+</div>
 </body>
 </html>

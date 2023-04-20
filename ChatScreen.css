@@ -20,11 +20,11 @@ body {
     border-radius: 15px;
 }
 
-.chatScreen{
+.chatScreen {
     border-radius: 15px !important;
 }
 
-.chatScreen > .headerOfBox{
+.chatScreen > .headerOfBox {
     border-top-left-radius: 15px;
 
 }
@@ -45,9 +45,10 @@ body {
     border-radius: 15px;
 }
 
-.chatsList > .headerOfBox{
+.chatsList > .headerOfBox {
     border-top-right-radius: 15px;
 }
+
 /*
 
 
@@ -63,7 +64,6 @@ body {
     height: 60px;
     padding: 0 15px;
     margin: 0;
-
 }
 
 .user-img {
@@ -261,6 +261,7 @@ body {
     padding: 10px;
     background-color: #bbbbbb;
     border-bottom-right-radius: 15px;
+    z-index: 2;
 }
 
 .bi-emoji-smile {
@@ -292,6 +293,18 @@ body {
     cursor: pointer;
 }
 
-.timeHourContact{
+.timeHourContact {
     float: left;
+}
+
+#chatNameLogo {
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-left: 40%;
+}
+
+.DivWithScroll {
+    height: 86%;
+    overflow: scroll;
+    overflow-x: hidden;
 }
