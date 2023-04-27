@@ -24,7 +24,10 @@
   3. chat room page.
   
   The log in page is a simple login page for Hat Chat, a chat application. This page allows existing users to log in to their accounts, and new users to navigate to the registration page. 
-
+  
+The login page template includes a form with fields for username, password, display name, and profile picture. The template uses Bootstrap 5.3.0-alpha3 for styling and includes custom CSS to adjust the positioning and styling of certain elements.
+  
+  
 
 ## Implementation
 
@@ -33,7 +36,9 @@
 The background of the page is a gradient animation created using CSS. The animation gives the page a dynamic and modern feel.
   <img width="300" alt="rm1" src="https://user-images.githubusercontent.com/103560553/234780293-e618d743-7ac0-4805-a298-e5d668767660.PNG">
 
+ The registration page includes a registration form for new users and has a responsive design to ensure it looks great on all devices. This page uses Bootstrap CSS framework for the styling. The HTML structure for this page consists of a header, body and footer. The header contains the logo and the body contains the registration form. The footer contains a link to the login page and the copyright information.
   
+<img width="300" alt="rm2" src="https://user-images.githubusercontent.com/103560553/234783338-8691a917-fed8-44a5-86be-e5060ddf356e.PNG">
 
 
 ## Installing And Executing
