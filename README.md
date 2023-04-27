@@ -27,7 +27,8 @@
   
 The login page template includes a form with fields for username, password, display name, and profile picture. The template uses Bootstrap 5.3.0-alpha3 for styling and includes custom CSS to adjust the positioning and styling of certain elements.
   
-  
+The chat screen is divided into two sections; the left panel lists your chats, and the right panel displays the conversation. The chat screen is simple, clean, and easy to use, making it an ideal platform for personal and business communication.
+ 
 
 ## Implementation
 
