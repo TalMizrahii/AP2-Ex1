@@ -18,10 +18,21 @@
 
 ## Description
 
+  The project contains 3 web pages:
+  1. Login page.
+  2. regestration page.
+  3. chat room page.
+  
+  The log in page is a simple login page for Hat Chat, a chat application. This page allows existing users to log in to their accounts, and new users to navigate to the registration page. 
 
 
 ## Implementation
 
+  This login page is created using HTML and styled with CSS. It uses Bootstrap v5.3.0-alpha3 for the styling of the form and buttons. The login form contains two input fields for the user's username and password, respectively. When the user clicks the "Log In" button, they are redirected to the ChatScreen.html page. The registration page is accessible via the link at the bottom of the form.
+
+The background of the page is a gradient animation created using CSS. The animation gives the page a dynamic and modern feel.
+  
+  
 
 
 ## Installing And Executing
