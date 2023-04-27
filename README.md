@@ -34,6 +34,8 @@ The login page template includes a form with fields for username, password, disp
   This login page is created using HTML and styled with CSS. It uses Bootstrap v5.3.0-alpha3 for the styling of the form and buttons. The login form contains two input fields for the user's username and password, respectively. When the user clicks the "Log In" button, they are redirected to the ChatScreen.html page. The registration page is accessible via the link at the bottom of the form.
 
 The background of the page is a gradient animation created using CSS. The animation gives the page a dynamic and modern feel.
+
+
   <img width="300" alt="rm1" src="https://user-images.githubusercontent.com/103560553/234780293-e618d743-7ac0-4805-a298-e5d668767660.PNG">
 
  The registration page includes a registration form for new users and has a responsive design to ensure it looks great on all devices. This page uses Bootstrap CSS framework for the styling. The HTML structure for this page consists of a header, body and footer. The header contains the logo and the body contains the registration form. The footer contains a link to the login page and the copyright information.
