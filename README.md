@@ -44,7 +44,7 @@ The background of the page is a gradient animation created using CSS. The animat
 
 The chat room contains a list of recent conversations, images of the contant and a date and time note about the last message made in this conveersation. The second part in the conversation is a the chat itself. It contains all messages in the conversation with the spesific contant. The image of the contant is located in the left upper part of the screen.
   
-  <img width="960" alt="rm3" src="https://user-images.githubusercontent.com/103560553/234786543-de269658-948f-4506-9781-73e75b506844.PNG">
+  <img width="300" alt="rm3" src="https://user-images.githubusercontent.com/103560553/234786543-de269658-948f-4506-9781-73e75b506844.PNG">
 
  
 ## Installing And Executing
