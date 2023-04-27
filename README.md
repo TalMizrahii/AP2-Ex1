@@ -49,7 +49,20 @@ The chat room contains a list of recent conversations, images of the contant and
 
  
 ## Installing And Executing
+  
+To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 
+```bash
+# Clone this repository.
+$ git clone https://github.com/TalMizrahii/AP2-Ex1
+
+# Go into the repository.
+$ cd AP2-Ex1
+```
+from here you can run any of the pages bellow:
+  1. index.html
+  2. ChatScreen.html
+  3. RegistrationScreen.html
 
 ## Authors
 * [@Yuval Arbel](https://github.com/YuvalArbel1)
